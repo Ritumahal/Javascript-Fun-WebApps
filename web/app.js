@@ -3,7 +3,7 @@ var btnTranslate = document.querySelector("#btnTranslate");
 btnTranslate.addEventListener('click',translate);
 var outputDiv = document.querySelector("#outputDiv");
 //fun translations
-var serverURL = "https://api.funtranslations.com/translate/ferb-latin.json";
+var serverURL = "https://api.funtranslations.com/translate/minion.json";
 //fun kanye quotes
 //var serverURL = "https://api.kanye.rest/";
 function errHandle(error){
